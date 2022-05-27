@@ -34,5 +34,6 @@ create table guestbook(  		no       number,
 select *
 from guestbook;
 
+create SEQUENCE seq_guestbook_no;
 
 commit;
